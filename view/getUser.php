@@ -10,14 +10,14 @@
     <div id="backround" class='flex-container'></div>
         <div id="user-details">
             <div class="user-info">
-                <h1><?php echo $data->getName() ?> <?php echo $data->getFirst_name() ?></h1>
-                <p>Identifiant : <?php echo $data->getId_user(); ?></p>
-                <p>E-mail : <?php echo $data->getEmail(); ?></p>
-                <p>Adresse : <?php echo $data->getAdress(); ?></p>
-                <p>Téléphone : <?php echo $data->getPhone(); ?></p>
-                <p>Statut : <?php echo $data->getStatut(); ?></p>
-                <p>Date d'inscription : <?php echo $data->getInscription_date()->format('d/m/Y à H:i'); ?></p>
-                <h2>Emprunts en cours :</h2>
+                <h1><?php echo $data->getName() ?> <?php echo $data->getFirst_name() ?></h1><br>
+                <p>Identifiant : <?php echo $data->getId_user(); ?></p><br>
+                <p>E-mail : <?php echo $data->getEmail(); ?></p><br>
+                <p>Adresse : <?php echo $data->getAdress(); ?></p><br>
+                <p>Téléphone : <?php echo $data->getPhone(); ?></p><br>
+                <p>Statut : <?php echo $data->getStatut(); ?></p><br>
+                <p>Date d'inscription : <?php echo $data->getInscription_date()->format('d/m/Y à H:i'); ?></p><br>
+                <h2>Emprunts en cours :</h2><br>
                 <ul>
                 <?php 
                 $number = 0;
